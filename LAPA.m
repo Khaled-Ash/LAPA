@@ -19,7 +19,6 @@ V(:,1) = 1;
 %right boundary
 V(:,nx) = 1;
 
-SideToZero = 1;
 for k = 1:ni
     for i = 2:nx-1
         for j = 2:ny-1
